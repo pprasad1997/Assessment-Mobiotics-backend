@@ -1,6 +1,9 @@
 {
   "name": "mobiotics",
   "version": "0.0.0",
+  "scripts": {
+    "start:server": "nodemon ./backend/app.js"
+  },
   "private": true,
   "dependencies": {
     "bcrypt": "^5.0.0",
