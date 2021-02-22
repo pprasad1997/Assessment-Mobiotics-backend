@@ -154,4 +154,6 @@ app.put("/update", multer({storage: storage}).single("img"), (req, res, next) =>
   });
 });
 
-app.listen(port);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}.`);
+});
