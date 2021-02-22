@@ -2,7 +2,7 @@
   "name": "mobiotics",
   "version": "0.0.0",
   "scripts": {
-    "start:server": "nodemon ./backend/app.js"
+    "start": "node app.js"
   },
   "private": true,
   "dependencies": {
